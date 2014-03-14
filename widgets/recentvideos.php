@@ -16,7 +16,6 @@ class VidsyWidgetRecentVideos extends WP_Widget
 				function form($instance)
 				{
 								$title  = isset($instance['title']) ? esc_attr($instance['title']) : '';
-								$domain = isset($instance['domain']) ? esc_attr($instance['domain']) : 'videos';
 								$theme  = isset($instance['theme']) ? esc_attr($instance['theme']) : 'light';
 								$height = isset($instance['height']) ? absint($instance['height']) : '350';
 ?>
@@ -30,11 +29,22 @@ class VidsyWidgetRecentVideos extends WP_Widget
 						<p>
 							<label for="<?php
 								echo $this->get_field_id('domain'); ?>">Vidsy's Subdomain:
-							<input class="widefat" id="<?php
-								echo $this->get_field_id('domain'); ?>" name="<?php
-								echo $this->get_field_name('domain'); ?>" type="text" value="<?php
-								echo $domain; ?>" /></label><br />
-							Enter your Vidsy.tv's subdomain.<br/>Example: for <strong>videos.vidsy.tv</strong>, your subdomain is: <strong>videos</strong>
+								<?php
+								$vidsy_options = get_option('vidsy_options', '');
+								$vidsy_subdomain = $vidsy_options['subdomain'];
+
+								if (empty($vidsy_subdomain) OR stripos($vidsy_subdomain, 'invalid') !== false) {
+								?>
+										Please, <a href="<?php
+												echo admin_url('admin.php?page=vidsy-config'); ?>">configure</a> your Vidsy subdomain first.
+								<?php
+								} else {
+								?>
+								<strong><?php echo $vidsy_subdomain; ?></strong>
+								<?php
+								}
+								?>
+							</label>
 						</p>
 						<p>
 							<label for="<?php
@@ -62,19 +72,10 @@ class VidsyWidgetRecentVideos extends WP_Widget
 				function update($new_instance, $old_instance)
 				{
 								$instance = $old_instance;
-								//Vidsy API request for user data
-								$userdata = json_decode(wp_remote_retrieve_body(wp_remote_get('http://vidsy.tv/api/subdomain/' . $new_instance['domain'])));
-								if ($userdata->status == 'error') {
-												$new_instance['domain']          = 'invalid subdomain (does not exist)';
-												$instance['userdata']          = '';
-								} else {
-												$instance['userdata']          = $userdata;
-								}
 
-								$instance['title']          = strip_tags($new_instance['title']);
-								$instance['domain']          = strip_tags($new_instance['domain']);
-								$instance['theme']          = strip_tags($new_instance['theme']);
-								$instance['height']          = (int)$new_instance['height'];
+								$instance['title']  = strip_tags($new_instance['title']);
+								$instance['theme']  = strip_tags($new_instance['theme']);
+								$instance['height'] = (int)$new_instance['height'];
 								return $instance;
 				}
 
@@ -84,11 +85,8 @@ class VidsyWidgetRecentVideos extends WP_Widget
 
 								echo $before_widget;
 								$title    = empty($instance['title']) ? ' ' : apply_filters('widget_title', $instance['title']);
-								$domain   = empty($instance['domain']) ? ' ' : apply_filters('widget_title', $instance['domain']);
 								$theme    = empty($instance['theme']) ? ' ' : apply_filters('widget_title', $instance['theme']);
 								$height   = empty($instance['height']) ? ' ' : apply_filters('widget_title', $instance['height']);
-								//Vidsy's user data
-								$userdata = $instance['userdata']->userdata;
 
 								if (!empty($title)) {
 												echo $before_title . $title . $after_title;
@@ -98,15 +96,20 @@ class VidsyWidgetRecentVideos extends WP_Widget
 												$height = 350;
 								}
 
-								if (empty($userdata->userid)) {
+								//Vidsy's user data
+								$userdata        = get_option('vidsy_options');
+								$vidsy_subdomain = $userdata['subdomain'];
+								$userdata        = $userdata['userdata'];
+
+								if (empty($userdata->userid) OR empty($vidsy_subdomain)) {
 ?>
 									<div class="textwidget">Please configure your widget.</div>
 									<?php
 								} else {
 ?>
-									<script type='text/javascript' src='//vidsy.tv/public/widgets/recentvertical.js?userid=<?php
+									<script type='text/javascript' src='//<?php echo VIDSY_DOMAIN; ?>/public/widgets/recentvertical.js?userid=<?php
 												echo $userdata->userid; ?>&amp;username=<?php
-												echo $domain; ?>&amp;width=100%25&amp;height=<?php
+												echo $vidsy_subdomain; ?>&amp;width=100%25&amp;height=<?php
 												echo $height; ?>&amp;theme=<?php
 												echo $theme; ?>'></script>
 								<?php
