@@ -3,7 +3,7 @@ Contributors: tcattitude, ramirotenorio
 Tags: video, gallery, youtube, vimeo, ustream, embed, player, playlist, plugin, integration, tv, shortcode.
 Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.2.1b
+Stable tag: 1.0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,9 @@ Please do, shoot us an email to hello@vidsy.tv
 
 
 == Changelog ==
+
+= 1.0.2 =
+Added banner image (at plugin page) and readme file corrected. So sorry for the updates!.
 
 = 1.0.1 =
 * New options page. Set your account once, all Widgets will sync automatically with your settings.
