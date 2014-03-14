@@ -1,36 +1,38 @@
-=== Vidsy.tv ===
+=== Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: vidsy, video, integration, video gallery, youtube, vimeo, ustream, widget.
-Requires at least: 3.8
+Tags: video, gallery, youtube, vimeo, ustream, embed, player, playlist, plugin, integration, tv, shortcode.
+Requires at least: 3.5.1
+Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Vidsy.tv's plugin allows easy integration with Vidsy's Dashboard from WordPress admin panel.
+Customize video galleries, enrich your entire website with synced video widgets and manage everything from your dashboard!
 
 == Description ==
 
-Vidsy.tv is a free video CMS, a simple tool that helps you manage videos on your website. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
+[Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website.") is a free video CMS, a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
 
 Organize videos from Youtube, Vimeo or Ustream into video playlists, add your own title and descriptions and add this playlists to your posts, galleries, pages, sidebars or footers simply by using the widgets in your dashboard.
 
 Some cool features that you get:
 
-Instantly create video playlists.
-Add your own metadata to your playlists and videos.
-Easily add your video playlists to any WordPress menu, page, post or siderbar.
-Customize your main video page and keep it automatically updated with all the new videos you collect on your playlists.
-Customize your widgets.
-Follow Youtube, Vimeo and Ustream accounts directly form your dashboard without having to keep independent accounts: specially useful for community managers.
-Use our Bookmarklet to add videos to your WP directly from the source, without having to open htmls or change your code.
-Connect your Facebook and Twitter accounts and get directly on your dashboard all the videos that are shared on your social networks.
+- Instantly create video playlists.
+- Add your own metadata to your playlists and videos.
+- Easily add your video playlists to any WordPress menu, page, post or siderbar.
+- Customize your main video page and keep it automatically updated with all the new videos you collect on your playlists.
+- Customize your widgets.
+- Follow Youtube, Vimeo and Ustream accounts directly form your dashboard without having to keep independent accounts: specially useful for community managers.
+- Use our Bookmarklet to add videos to your WP directly from the source, without having to open htmls or change your code.
+- Connect your Facebook and Twitter accounts and get directly on your dashboard all the videos that are shared on your social networks.
 
 == Installation ==
 
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Goto Appearance -> Widgets and add Vidsy's Widget to your sidebar (configure it as you like)
+3. Go to Appearance -> Widgets and add Vidsy's Widget to your sidebar (configure it as you like)
+4. Use our shortcode to display your fullsite inside any page or post. Try it!: [vidsy width="100%" height="800px"]
 
 == Frequently Asked Questions ==
 
@@ -68,8 +70,15 @@ Please do, shoot us an email to hello@vidsy.tv
 
 1. Widget configuration.
 2. Widget public side look (light variant. Dark also included).
+3. Fullsite using [vidsy] shortcode.
+4. Vidsy's dashboard administration inside WordPress admin, for collect videos easily.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* New options page. Set your account once, and forget. Widget use that information now.
+* Administer your Vidsy's dashboard from inside WordPress admin itself.
+* New shortcode for integrate a fullsite widget in any WordPress page. Test [vidsy width="100%" height="800px"] (*) width/height optional, in pixels or percentage. Width defaults to 100%, height to 800 pixels.
+
+= 1.0.0 =
 * First released version.
