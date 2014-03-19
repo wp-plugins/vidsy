@@ -3,7 +3,7 @@
 Plugin Name: Vidsy.tv
 Plugin URI: http://vidsy.tv
 Description: WordPress integration with Vidsy.tv
-Version: 1.0.2.2
+Version: 1.0.3.0
 Author: Vidsy.tv
 Author URI: http://vidsy.tv
 License: GPL2+
@@ -24,5 +24,6 @@ if (is_admin()) {
 }
 //Widgets
 include_once (VIDSY_PLUGINPATH . 'widgets/recentvideos.php');
+include_once (VIDSY_PLUGINPATH . 'widgets/playerrecent.php');
 //Shortcodes
 include_once (VIDSY_PLUGINPATH . 'includes/shortcodes.php');
