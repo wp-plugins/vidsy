@@ -1,9 +1,9 @@
 === Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: video, gallery, youtube, vimeo, ustream, embed, player, playlist, plugin, integration, tv, shortcode.
+Tags: video, gallery, youtube, vimeo, ustream, embed, player, playlist, integration, tv, shortcode, widget.
 Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.2.2
+Stable tag: 1.0.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Customize video galleries, enrich your entire website with synced video widgets 
 
 == Description ==
 
-[Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website.") is a free video CMS, a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
+[Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website") is a free video CMS, a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
 
 Organize videos from Youtube, Vimeo or Ustream into video playlists, add your own title and descriptions and add this playlists to your posts, galleries, pages, sidebars or footers simply by using the widgets in your dashboard.
 
@@ -31,7 +31,8 @@ Some cool features that you get:
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Appearance -> Widgets and add Vidsy's Widget to your sidebar (configure it as you like)
-4. Use our shortcode to display your full-site gallery inside any page or post. Try it!: `[vidsy width="100%" height="800px"]`
+4. Use our shortcode to display your full-site gallery inside any page or post: `[vidsy width="100%" height="800px" theme="light"]`
+5. Use our shortcode to display a player with your recent videos: `[vidsy type="playerrecent" width="100%" height="430px" theme="dark"]`
 
 == Frequently Asked Questions ==
 
@@ -68,20 +69,27 @@ Please do, shoot us an email to hello@vidsy.tv
 == Screenshots ==
 
 1. Widget configuration.
-2. Widget public side look (Light variant, Dark also included).
-3. Full-site gallery using `[vidsy]` shortcode.
+2. Recent Videos, available as Widget and Shortcode (Light variant, Dark also included).
+3. Full-site video gallery using `[vidsy]` shortcode.
 4. Vidsy's admin panel directly in your WordPress Dashboard.
-
+5. Player with Recent Videos, available as Widget and Shortcode (Light variant, Dark also included).
 
 == Changelog ==
 
+= 1.0.3.0 =
+* New Widget available: Player with your Recent Videos.
+* New Shortcode flag (type) let you embed a full Player with your Recent videos at any page/post: `[vidsy type="playerrecent" width="100%" height="430px" theme="dark"]`
+* Check out a demo of the shortcode (with the flag) in action [here](http://vidsy.tv/blog/videos/player-with-recent-videos/ "Shortcode demo")
+
 = 1.0.2 =
-Added banner image (at plugin page) and readme file corrected. So sorry for the updates!.
+* Added banner image (at plugin page) and readme file corrected. So sorry for the updates!.
 
 = 1.0.1 =
 * New options page. Set your account once, all Widgets will sync automatically with your settings.
 * Access your Vidsy.tv dashboard directly from your WordPress dashboard.
-* New shortcode to integrate a full-site video gallery to any WordPress page. Give it a try!: `[vidsy width="100%" height="800px"]` (*) width/height optional, in pixels or percentage. Width defaults to 100%, height to 800 pixels.
+* New shortcode to integrate a full-site video gallery to any WordPress page. Give it a try!: `[vidsy width="100%" height="800px"]` (*) width/height optional, in pixels or percentage.
+Width defaults to 100%, height to 800 pixels.
+If you want a dark one, set the flag theme like this: `[vidsy width="100%" height="800px" theme="dark"]`
 
 = 1.0.0 =
 * First released version.
