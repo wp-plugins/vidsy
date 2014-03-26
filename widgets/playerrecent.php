@@ -8,7 +8,7 @@ class VidsyWidgetPlayerWithRecent extends WP_Widget
 				{
 								$widget_ops = array(
 												'classname' => 'VidsyWidgetPlayerWithRecent',
-												'description' => 'Displays a Player with Recent videos from your Vidsy account'
+												'description' => 'Displays a complete player with all recent videos been collected'
 								);
 								$this->WP_Widget('VidsyWidgetPlayerWithRecent', 'VidsyTV: player with recent videos', $widget_ops);
 				}

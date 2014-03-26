@@ -37,8 +37,6 @@ class VidsySettingsPage
 								add_submenu_page(null, 'VTV', 'VTV', 'manage_options', 'vidsy-admin-blank', array(&$this,
 												'vidsy_page_blank'
 								));
-								//Registramos los settings
-								add_action('admin_init', 'vidsy_register_settings');
 				}
 				/**
 				 * Pagina: vista principal
