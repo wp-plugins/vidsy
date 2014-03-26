@@ -8,7 +8,7 @@ class VidsyWidgetRecentVideos extends WP_Widget
 				{
 								$widget_ops = array(
 												'classname' => 'VidsyWidgetRecentVideos',
-												'description' => 'Displays recent videos from your Vidsy account'
+												'description' => 'Recent videos you have collected, in a vertical display'
 								);
 								$this->WP_Widget('VidsyWidgetRecentVideos', 'VidsyTV: recent videos', $widget_ops);
 				}
