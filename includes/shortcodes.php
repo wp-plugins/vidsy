@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) exit;
  *        The array contains the following keys:
  *        width, in pixels or percentage. Default: 100%.
  *        height, in pixels or percentage. Default: 800px.
- *        type, one of the following: fullsite, playerrecent, playerplaylist. Default: fullsite.
+ *        type, one of the following: fullsite, playerrecent, playerplaylist, playerrecentandplaylists. Default: fullsite.
  *        theme, one of the following: light, dark. Default: light.
  * @return string
  *         Shortcode HTML output
@@ -88,6 +88,8 @@ function shortcode_vidsy($atts)
 												}
 								} elseif ($type == 'playerrecent') {
 												$output.= '<script type="text/javascript" src="//vidsy.tv/public/widgets/playerrecent.js?userid=' . $userdata->userid . '&amp;username=' . $subdomain . '&amp;width=' . $width . '&amp;height=' . $height . '&amp;theme=' . $theme . '"></script>';
+								} elseif($type == 'playerrecentandplaylists') {
+												$output.= '<script type="text/javascript" src="//vidsy.tv/public/widgets/playerrecentplaylists.js?userid=' . $userdata->userid . '&amp;username=' . $subdomain . '&amp;width=' . $width . '&amp;height=' . $height . '&amp;theme=' . $theme . '"></script>';
 								} else {
 												$output.= '<div class="vidsyerror">Error A113. Please contact us at hello (at) vidsy.tv</div>';
 								}

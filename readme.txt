@@ -1,9 +1,9 @@
 === Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: video, gallery, youtube, vimeo, ustream, embed, player, playlist, integration, tv, shortcode, widget
+Tags: video, videos, gallery, youtube, vimeo, ustream, embed, player, playlist, integration, tv, shortcode, widget, video gallery, videos galleries, video galleries, wordpress video gallery
 Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.4.0
+Stable tag: 1.0.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Customize video galleries, enrich your entire website with synced video widgets 
 
 == Description ==
 
-[Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website") is a free video CMS, a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
+[Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website") is a free video CMS and a full WordPress video gallery solution; a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
 
 Organize videos from Youtube, Vimeo or Ustream into video playlists, add your own title and descriptions and add this playlists to your posts, galleries, pages, sidebars or footers simply by using the widgets in your dashboard.
 
@@ -26,8 +26,9 @@ Some cool features that you get:
 - Use our Bookmarklet to add videos to your WP directly from the source, without having to open html or change your code.
 - Connect your Facebook and Twitter accounts and get directly on your dashboard all the videos that are shared on your social networks.
 
-Check out some in action demos here:
+Check out some Vidsy's WordPress video galleries demos here:
 
+- [Player with your recent videos and your playlists](http://vidsy.tv/blog/videos/player-with-recent-videos-and-playlists/ "Demo playerrecentandplaylists")
 - [Player with videos from single Playlist](http://vidsy.tv/blog/videos/player-from-playlist/ "Demo playerplaylist")
 - [Player with recent videos](http://vidsy.tv/blog/videos/player-with-recent-videos/ "Demo playerrecent")
 - [Fullsite embed](http://vidsy.tv/blog/videos/ "Demo fullsite")
@@ -36,7 +37,7 @@ Check out some in action demos here:
 
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Appearance -> Widgets and add Vidsy's Widget to your sidebar (configure it as you like)
+3. Go to Appearance -> Widgets and add any of our Vidsy's Widgets to your sidebar (configure it as you like)
 4. Use our shortcode to display your full-site gallery inside any page or post: `[vidsy width="100%" height="800px" theme="light"]` (Note: `theme` flag can be: `light` or `dark`)
 5. Use our shortcode to display a player with your recent videos: `[vidsy type="playerrecent" width="100%" height="430px" theme="dark"]`
 6. Use our shortcode to display a player with videos from a single playlist: `[vidsy type="playerplaylist" playlist="name of the playlist" width="100%" height="430px" theme="light"]`
@@ -85,16 +86,22 @@ Please do, shoot us an email to hello@vidsy.tv
 
 == Changelog ==
 
+= 1.0.4.5 =
+* New Widget: recent videos from a single playlist, vertical, suitable for a sidebar.
+* New Widget: player with your recent videos and playlists.
+* New Shortcode type flag available, to embed a full Player with your recent videos and playlists to any post/page: `[vidsy type="playerrecentandplaylists" width="100%" height="430px" theme="light"]`
+* Check out a demo of the new shortcode flag (`playerrecentandplaylists`) in action [here](http://vidsy.tv/blog/videos/player-with-recent-videos-and-playlists/ "Demo playerrecentandplaylists")
+
 = 1.0.4.0 =
 * Resolved a PHP Warning on admin settings screen (Thanks to Camila Ramirez for the report!)
 * New Widget available: Player with videos from a single Playlist.
 * New Shortcode type flag available, to embed a full Player with videos from a single Playlist to any post/page: `[vidsy type="playerplaylist" playlist="name of the playlist" width="100%" height="430px" theme="light"]`
-* Check out a demo of the new shortcode flag (playerplaylist) in action [here](http://vidsy.tv/blog/videos/player-from-playlist/ "Demo playerplaylist")
+* Check out a demo of the new shortcode flag (`playerplaylist`) in action [here](http://vidsy.tv/blog/videos/player-from-playlist/ "Demo playerplaylist")
 
 = 1.0.3.0 =
 * New Widget available: Player with your Recent Videos.
 * New Shortcode flag (type) let you embed a full Player with your Recent videos at any page/post: `[vidsy type="playerrecent" width="100%" height="430px" theme="dark"]`
-* Check out a demo of the shortcode (with the flag: playerrecent) in action [here](http://vidsy.tv/blog/videos/player-with-recent-videos/ "Demo playerrecent")
+* Check out a demo of the shortcode (with the flag: `playerrecent`) in action [here](http://vidsy.tv/blog/videos/player-with-recent-videos/ "Demo playerrecent")
 
 = 1.0.2 =
 * Added banner image (at plugin page) and readme file corrected. So sorry for the updates!.

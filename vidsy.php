@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Vidsy.tv
-Plugin URI: http://vidsy.tv
+Plugin URI: https://wordpress.org/plugins/vidsy/
 Description: WordPress integration with Vidsy.tv
-Version: 1.0.4.0
+Version: 1.0.4.5
 Author: Vidsy.tv
 Author URI: http://vidsy.tv
 License: GPL2+
@@ -24,7 +24,9 @@ if (is_admin()) {
 }
 //Widgets
 include_once (VIDSY_PLUGINPATH . 'widgets/recentvideos.php');
+include_once (VIDSY_PLUGINPATH . 'widgets/recentplaylist.php');
 include_once (VIDSY_PLUGINPATH . 'widgets/playerrecent.php');
 include_once (VIDSY_PLUGINPATH . 'widgets/playerplaylist.php');
+include_once (VIDSY_PLUGINPATH . 'widgets/playerrecentplaylists.php');
 //Shortcodes
 include_once (VIDSY_PLUGINPATH . 'includes/shortcodes.php');
