@@ -1,9 +1,9 @@
 === Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: video, videos, gallery, youtube, vimeo, ustream, embed, player, playlist, integration, tv, shortcode, widget, video gallery, videos galleries, video galleries, wordpress video gallery
+Tags: video, integration, vidsy, video gallery, youtube gallery, vimeo gallery, ustream gallery, embed videos, youtube, vimeo, ustream, embed youtube, embed vimeo, embed ustream, embedding youtube, embedding vimeo, embedding ustream, simple, simple youtube, simple vimeo, simple ustream, smart youtube playback, smart vimeo playback, smart ustream playback, wordpress youtube embed, wordpress vimeo embed, wordpress ustream embed, youtube embed, vimeo embed, ustream embed, youtube embedding, vimeo embedding, ustream embedding, youtube player, vimeo player, ustream player, youtube plugin, vimeo plugin, ustream plugin, youtube video gallery, vimeo video gallery, ustream video gallery, youtube and vimeo video gallery, youtube and ustream video gallery, vimeo and ustream video gallery,  youtube video gallery plugin, vimeo video gallery plugin, ustream video gallery plugin, youtube and vimeo video gallery plugin, youtube and ustream video gallery plugin, vimeo and ustream video gallery plugin, video playlist, youtube playlist, vimeo playlist, ustream playlist, youtube and vimeo playlist, youtube and ustream playlist, youtube video playlist, vimeo video playlist, ustream video playlist, youtube and vimeo playlist, youtube and ustream playlist, vimeo and ustream playlist, embed video playlist, video playlist embed, youtube playlist plugin, vimeo playlist plugin, ustream playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, youtube video playlist plugin, vimeo video playlist plugin, ustream video playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, shortcode, plugin, video plugin, video shortcode, video gallery shortcode, tv, widget, galleries.
 Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.4.5
+Stable tag: 1.0.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,10 +37,8 @@ Check out some Vidsy's WordPress video galleries demos here:
 
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Appearance -> Widgets and add any of our Vidsy's Widgets to your sidebar (configure it as you like)
-4. Use our shortcode to display your full-site gallery inside any page or post: `[vidsy width="100%" height="800px" theme="light"]` (Note: `theme` flag can be: `light` or `dark`)
-5. Use our shortcode to display a player with your recent videos: `[vidsy type="playerrecent" width="100%" height="430px" theme="dark"]`
-6. Use our shortcode to display a player with videos from a single playlist: `[vidsy type="playerplaylist" playlist="name of the playlist" width="100%" height="430px" theme="light"]`
+3. Go to Appearance -> Widgets and add any of our Vidsy's Widgets to your theme's widget areas (configure them as you like)
+4. Or use the Vidsy Wizard; a button located at your post/page editor (look for Vidsy's logo) to easily insert our shortcode to display your full-site or a player with a playlist or your recent videos inside any page or post.
 
 == Frequently Asked Questions ==
 
@@ -83,8 +81,12 @@ Please do, shoot us an email to hello@vidsy.tv
 5. Player with Recent Videos, available as Widget and Shortcode (Light variant, Dark also included).
 6. Player with videos from a single Playlist, Widget configuration.
 7. Player with videos from a single Playlist, public view.
+8. Our Vidsy Wizard to easily place a shortcode inside any post or page.
 
 == Changelog ==
+
+= 1.0.5.0 =
+* New "Wizard" to configure our shortcode without need to remember any flag or variable involved. Just search for the Vidsy button inside the WordPress post/page editor and have fun! ;)
 
 = 1.0.4.5 =
 * New Widget: recent videos from a single playlist, vertical, suitable for a sidebar.
