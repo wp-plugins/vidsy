@@ -1,0 +1,17 @@
+#vshortc_addbutton {
+	color: #FFF !important; /* Sorry */
+}
+
+.vidsy-form-table th {
+	padding: 5px 10px 5px 0 !important;
+}
+
+.vidsy-form-table td {
+	margin-bottom: 4px !important;
+	padding: 5px 10px !important;
+}
+
+.vidsy_shortc_mainexplain {
+	padding: 5px;
+	font-size: 14px;
+}

@@ -9,6 +9,7 @@ if (!defined('ABSPATH')) exit;
  *        height, in pixels or percentage. Default: 800px.
  *        type, one of the following: fullsite, playerrecent, playerplaylist, playerrecentandplaylists. Default: fullsite.
  *        theme, one of the following: light, dark. Default: light.
+ *        playlist, name of a playlist (spaces converted to +). Example: my+fails+playlist
  * @return string
  *         Shortcode HTML output
  */
