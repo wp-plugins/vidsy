@@ -1,9 +1,9 @@
 === Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: video, integration, vidsy, video gallery, youtube gallery, vimeo gallery, ustream gallery, embed videos, youtube, vimeo, ustream, embed youtube, embed vimeo, embed ustream, embedding youtube, embedding vimeo, embedding ustream, simple, simple youtube, simple vimeo, simple ustream, smart youtube playback, smart vimeo playback, smart ustream playback, wordpress youtube embed, wordpress vimeo embed, wordpress ustream embed, youtube embed, vimeo embed, ustream embed, youtube embedding, vimeo embedding, ustream embedding, youtube player, vimeo player, ustream player, youtube plugin, vimeo plugin, ustream plugin, youtube video gallery, vimeo video gallery, ustream video gallery, youtube and vimeo video gallery, youtube and ustream video gallery, vimeo and ustream video gallery,  youtube video gallery plugin, vimeo video gallery plugin, ustream video gallery plugin, youtube and vimeo video gallery plugin, youtube and ustream video gallery plugin, vimeo and ustream video gallery plugin, video playlist, youtube playlist, vimeo playlist, ustream playlist, youtube and vimeo playlist, youtube and ustream playlist, youtube video playlist, vimeo video playlist, ustream video playlist, youtube and vimeo playlist, youtube and ustream playlist, vimeo and ustream playlist, embed video playlist, video playlist embed, youtube playlist plugin, vimeo playlist plugin, ustream playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, youtube video playlist plugin, vimeo video playlist plugin, ustream video playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, shortcode, plugin, video plugin, video shortcode, video gallery shortcode, tv, widget, galleries.
+Tags: video, integration, vidsy, video gallery, wordpress video gallery, youtube gallery, vimeo gallery, ustream gallery, embed videos, youtube, vimeo, ustream, embed youtube, embed vimeo, embed ustream, embedding youtube, embedding vimeo, embedding ustream, simple, simple youtube, simple vimeo, simple ustream, smart youtube playback, smart vimeo playback, smart ustream playback, wordpress youtube embed, wordpress vimeo embed, wordpress ustream embed, youtube embed, vimeo embed, ustream embed, youtube embedding, vimeo embedding, ustream embedding, youtube player, vimeo player, ustream player, youtube plugin, vimeo plugin, ustream plugin, youtube video gallery, vimeo video gallery, ustream video gallery, youtube and vimeo video gallery, youtube and ustream video gallery, vimeo and ustream video gallery,  youtube video gallery plugin, vimeo video gallery plugin, ustream video gallery plugin, youtube and vimeo video gallery plugin, youtube and ustream video gallery plugin, vimeo and ustream video gallery plugin, video playlist, youtube playlist, vimeo playlist, ustream playlist, youtube and vimeo playlist, youtube and ustream playlist, youtube video playlist, vimeo video playlist, ustream video playlist, youtube and vimeo playlist, youtube and ustream playlist, vimeo and ustream playlist, embed video playlist, video playlist embed, youtube playlist plugin, vimeo playlist plugin, ustream playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, youtube video playlist plugin, vimeo video playlist plugin, ustream video playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, shortcode, plugin, video plugin, video shortcode, video gallery shortcode, tv, widget, galleries
 Requires at least: 3.5.1
 Tested up to: 3.8.1
-Stable tag: 1.0.5.0
+Stable tag: 1.0.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,8 @@ Customize video galleries, enrich your entire website with synced video widgets 
 == Description ==
 
 [Vidsy.tv](http://vidsy.tv/ "The easiest way to manage videos on your website") is a free video CMS and a full WordPress video gallery solution; a simple tool that helps you manage videos on your website and create custom video galleries. Keep an organized video page with all the videos you collect for your audience, maintain video galleries on different pages or sections of your website and do all of this in seconds and without having to change any line of code on your site.
+
+[youtube https://www.youtube.com/watch?v=uFLkBb_teIQ]
 
 Organize videos from Youtube, Vimeo or Ustream into video playlists, add your own title and descriptions and add this playlists to your posts, galleries, pages, sidebars or footers simply by using the widgets in your dashboard.
 
@@ -82,6 +84,12 @@ Please do, shoot us an email to hello@vidsy.tv
 6. Player with videos from a single Playlist, Widget configuration.
 7. Player with videos from a single Playlist, public view.
 8. Our Vidsy Wizard to easily place a shortcode inside any post or page.
+9. One of our custom Themes.
+10. One of our custom Themes.
+11. One of our custom Themes.
+12. One of our custom Themes.
+13. One of our custom Themes.
+14. One of our custom Themes.
 
 == Changelog ==
 
