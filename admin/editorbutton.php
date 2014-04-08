@@ -5,7 +5,6 @@ if (!defined('ABSPATH')) exit;
 function vidsy_thickbox_content()
 {
 				global $pagenow;
-				echo $pagenow;
 
 				if (is_admin() AND ('post.php' == $pagenow OR 'post-new.php' == $pagenow)) {
 ?>
