@@ -1,9 +1,9 @@
-=== Vidsy.tv video gallery and video CMS ===
+=== Vidsy.tv Video Gallery and Video CMS ===
 Contributors: tcattitude, ramirotenorio
 Tags: video, gallery, galleries, playlist, cms, embed, youtube, vimeo, ustream, shortcode, player, widget, skins, mobile
 Requires at least: 3.5.1
-Tested up to: 3.8.3
-Stable tag: 1.0.5.3
+Tested up to: 3.9
+Stable tag: 1.0.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,6 +92,9 @@ Please do, shoot us an email to hello@vidsy.tv
 14. One of our custom Themes.
 
 == Changelog ==
+
+= 1.0.5.4 =
+* WordPress 3.9 compatibility.
 
 = 1.0.5.0 =
 * New "Wizard" to configure our shortcode without need to remember any flag or variable involved. Just search for the Vidsy button inside the WordPress post/page editor and have fun! ;)
