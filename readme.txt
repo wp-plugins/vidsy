@@ -1,9 +1,9 @@
 === Vidsy.tv video gallery and video CMS ===
 Contributors: tcattitude, ramirotenorio
-Tags: video, integration, vidsy, video gallery, wordpress video gallery, youtube gallery, vimeo gallery, ustream gallery, embed videos, youtube, vimeo, ustream, embed youtube, embed vimeo, embed ustream, embedding youtube, embedding vimeo, embedding ustream, simple, simple youtube, simple vimeo, simple ustream, smart youtube playback, smart vimeo playback, smart ustream playback, wordpress youtube embed, wordpress vimeo embed, wordpress ustream embed, youtube embed, vimeo embed, ustream embed, youtube embedding, vimeo embedding, ustream embedding, youtube player, vimeo player, ustream player, youtube plugin, vimeo plugin, ustream plugin, youtube video gallery, vimeo video gallery, ustream video gallery, youtube and vimeo video gallery, youtube and ustream video gallery, vimeo and ustream video gallery,  youtube video gallery plugin, vimeo video gallery plugin, ustream video gallery plugin, youtube and vimeo video gallery plugin, youtube and ustream video gallery plugin, vimeo and ustream video gallery plugin, video playlist, youtube playlist, vimeo playlist, ustream playlist, youtube and vimeo playlist, youtube and ustream playlist, youtube video playlist, vimeo video playlist, ustream video playlist, youtube and vimeo playlist, youtube and ustream playlist, vimeo and ustream playlist, embed video playlist, video playlist embed, youtube playlist plugin, vimeo playlist plugin, ustream playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, youtube video playlist plugin, vimeo video playlist plugin, ustream video playlist plugin, youtube and vimeo playlist plugin, youtube and ustream playlist plugin, vimeo and ustream playlist plugin, shortcode, plugin, video plugin, video shortcode, video gallery shortcode, tv, widget, galleries
+Tags: video, gallery, galleries, playlist, cms, embed, youtube, vimeo, ustream, shortcode, player, widget, skins, mobile
 Requires at least: 3.5.1
-Tested up to: 3.8.2
-Stable tag: 1.0.5.2
+Tested up to: 3.8.3
+Stable tag: 1.0.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
