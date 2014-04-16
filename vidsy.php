@@ -3,7 +3,7 @@
 Plugin Name: Vidsy.tv
 Plugin URI: https://wordpress.org/plugins/vidsy/
 Description: WordPress integration with Vidsy.tv
-Version: 1.0.5.3
+Version: 1.0.5.4
 Author: Vidsy.tv
 Author URI: http://vidsy.tv
 License: GPL2+

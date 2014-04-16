@@ -75,3 +75,11 @@ jQuery(document).ready(function($) {
 		}
 	});
 });
+
+jQuery(window).resize(function() {
+	vidsy_resize_thickbox();
+});
+
+function vidsy_resize_thickbox() {
+	jQuery('#TB_window').css('height', 'auto');
+}
