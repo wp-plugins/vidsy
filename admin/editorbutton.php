@@ -74,7 +74,7 @@ function vidsy_thickbox_content()
 																$pl->name = wp_kses($pl->name, array());
 																$pl->id = (int)$pl->id;
 																$value_name = strip_tags($pl->name);
-																$value_nameapi = strtolower(preg_replace('!\s+!', ' ', $value_name));
+																$value_nameapi = esc_attr(strtolower(preg_replace('!\s+!', ' ', $value_name)));
 ?>
 									<option value="<?php
 																echo $value_nameapi; ?>"><?php

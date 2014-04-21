@@ -3,7 +3,7 @@ Contributors: tcattitude, ramirotenorio
 Tags: video, gallery, galleries, playlist, cms, embed, youtube, vimeo, ustream, shortcode, player, widget, skins, mobile
 Requires at least: 3.5.1
 Tested up to: 3.9
-Stable tag: 1.0.5.4
+Stable tag: 1.0.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,8 @@ Check out some Vidsy's WordPress video galleries demos here:
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Appearance -> Widgets and add any of our Vidsy's Widgets to your theme's widget areas (configure them as you like)
-4. Or use the Vidsy Wizard; a button located at your post/page editor (look for Vidsy's logo) to easily insert our shortcode to display your full-site or a player with a playlist or your recent videos inside any page or post.
+4. Use the Vidsy Wizard; a button located at your post/page editor (look for Vidsy's logo) to easily insert our shortcode to display your full-site or a player with a playlist or your recent videos inside any page or post.
+5. You can also use the auto-insert videos box, located below the Publish box in the new page/post page in wp-admin.
 
 == Frequently Asked Questions ==
 
@@ -90,8 +91,13 @@ Please do, shoot us an email to hello@vidsy.tv
 12. One of our custom Themes.
 13. One of our custom Themes.
 14. One of our custom Themes.
+15. Auto insert videos after your post content.
+16. Auto inserted videos inside a post.
 
 == Changelog ==
+
+= 1.0.6.0 =
+* New metabox in post/page editing. You can now auto insert a horizontal "related" videos (from your recent videos or a single playlist, you choose) after the post content.
 
 = 1.0.5.4 =
 * WordPress 3.9 compatibility.
