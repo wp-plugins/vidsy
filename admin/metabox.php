@@ -44,7 +44,7 @@ class vidsyMetaboxAutoInsert
 												'page'
 								); //limit meta box to certain post types
 								if (in_array($post_type, $post_types)) {
-												add_meta_box('vidsytv_metabox', __('Vidsy.tv Videos', 'vidsytv') , array(
+												add_meta_box('vidsytv_metabox', __('Related Videos', 'vidsytv') , array(
 																$this,
 																'render_meta_box_content'
 												) , $post_type, 'side', 'default');
@@ -102,13 +102,13 @@ class vidsyMetaboxAutoInsert
 								// Display the form, using the current values.
 								?>
 								<p>
-									Auto-insert Videos from Vidsy after the post content.
+									Auto insert related videos from your Vidsy.tv collection, after the post content.
 								</p>
 								<p>
 									<input type="checkbox" name="vidsytv_auto_enabled" id="vidsytv_auto_enabled" value="yes" <?php if (isset($vmeta_auto_enable)) checked($vmeta_auto_enable, 'yes'); ?> /> <label for="vidsytv_auto_enabled">Enable</label>
 								</p>
 								<p>
-									<strong>Select which video will be shown</strong><br/>Recent or from a Playlist.
+									<strong>Select the source for your related videos</strong>
 								</p>
 								<p>
 						<?php
@@ -151,7 +151,7 @@ class vidsyMetaboxAutoInsert
 								} else {
 ?>
 							<select id="vidsytv_auto_playlist" name="vidsytv_auto_playlist">
-									<option value="recent" <?php if (isset($vmeta_auto_playlist)) selected($vmeta_auto_playlist, 'recent'); ?>>Recent Videos</option>
+									<option value="recent" <?php if (isset($vmeta_auto_playlist)) selected($vmeta_auto_playlist, 'recent'); ?>>All Recent Videos</option>
 
 								<?php
 												foreach ($playlists as $pl) {
@@ -173,7 +173,7 @@ class vidsyMetaboxAutoInsert
 ?>
 								</p>
 								<p>
-									<strong>Theme</strong>
+									<strong>Background</strong>
 								</p>
 								<p>
 									<select name="vidsytv_auto_theme" id="vidsytv_auto_theme">
