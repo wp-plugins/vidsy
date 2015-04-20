@@ -1,9 +1,9 @@
 === Vidsy.tv Video Gallery and Video CMS ===
-Contributors: tcattitude, ramirotenorio
+Contributors: tcattd, tcattitude, ramirotenorio
 Tags: video, gallery, galleries, playlist, cms, embed, youtube, vimeo, ustream, shortcode, player, widget, skins, mobile, video-gallery
 Requires at least: 3.5.1
-Tested up to: 4.1
-Stable tag: 1.0.6.2
+Tested up to: 4.2
+Stable tag: 1.0.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,6 +95,9 @@ Please do, shoot us an email to hello@vidsy.tv
 16. Auto inserted videos inside a post.
 
 == Changelog ==
+
+= 1.0.6.3 =
+* Tested compatibility with WordPress 4.2
 
 = 1.0.6.2 =
 * Tested compatibility with WordPress 4.1

@@ -1,10 +1,9 @@
 <?php
-
 /*
 Plugin Name: Vidsy.tv
 Plugin URI: https://wordpress.org/plugins/vidsy/
 Description: WordPress integration with Vidsy.tv
-Version: 1.0.6.2
+Version: 1.0.6.3
 Author: Vidsy.tv
 Author URI: http://vidsy.tv
 License: GPL2+
